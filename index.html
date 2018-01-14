@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title  t-data="key.title">中文文档</title>
+  <style>
+    ul {
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      float: left;
+      list-style: none;
+      margin-right: 20px;
+    }
+    div.next {
+      display: block;
+    }
+  </style>
+</head>
+<body style="margin: 100px 0 0 300px;background-color: #99f; padding: 10px 50px; width: 400px;">
+  <div id="header" t-data="key.header.title">头部</div>
+  <div id="nav">
+    <div class="next">
+      <button t-data="key.nav.zh">中文</button>&emsp;<button t-data="key.nav.en">英文</button>&emsp;
+      <button t-data="key.nav.ko">韩文</button>
+    </div>
+    <ul>
+      <li t-data="key.nav.home">首页</li>
+      <li t-data="key.nav.my">我的</li>
+      <li t-data="key.nav.prolist">产品列表</li>
+      <li t-data="key.nav.contact">联系我们</li>
+      <li t-data="key.nav.flink">友链</li>
+    </ul>
+  </div>
+  <div id="main" t-data="key.main.title">
+    主体
+  </div>
+  <div id="footer" t-data="key.footer.title">页脚</div>
+</body>
+<script src="util/ajax.js"></script>
+<script src="index.js"></script>
+</html>

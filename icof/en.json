@@ -1,0 +1,14 @@
+{
+  "title": "english-doc",
+  "header.title": "header",
+  "nav.home": "home",
+  "nav.my": "my",
+  "nav.prolist": "prolist",
+  "nav.contact": "contact",
+  "nav.flink": "friend-link",
+  "nav.zh": "chiness",
+  "nav.en": "english",
+  "nav.ko": "korean",
+  "main.title": "main",
+  "footer.title": "footer"
+}
